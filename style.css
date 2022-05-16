@@ -1,44 +1,52 @@
 /* Color Scheme */
-/* Light Brown #dbd2d1 
-   Dark Brown #645344
-   Darker Brown #453f39
-   Green #a9c5b9
-   Light Green #dae9e7
-   Lighter Green #e6f0ef
+/* off-white #ecebed
+   light pink #f2dde3
+   pink #eeccd4
+   brown #836d6d
+   blue #5971a4
+   green #c4d6d1
 */
 
 *{
-    color: #dbd2d1;
-    background-color: #645344;
+    color: #5971a4;
+    background-color: #ecebed;
     font-size: 30px;
     font-family: "Trebuchet MS";
 }
 
 #title {
     text-align: center;
-    color: #a9c5b9;
+    color: #5971a4;
     font-size: 80px;
     font-family: serif;
-    background: white;
+    background: #eeccd4;
 	margin: 0px;
     padding: 20px;
 }
 
 .library{
-    background: #453f39;
+    background: #5971a4;
     padding: 10px;
 }
 
 .library h2{
     font-size: 40px;
-    color: #dbd2d1;
-    background: #453f39;
+    font-family: serif;
+    color: #ecebed;
+    background: #5971a4;
     padding: 10px;
 }
 
 .library p{
-    color: #dbd2d1;
-    background: #453f39;
+    color: #c4d6d1;
+    background: #5971a4;
     padding: 10px;
     font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: serif;
+    color: #ecebed;
+    background: #5971a4;
 }

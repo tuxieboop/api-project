@@ -4,19 +4,21 @@
 <meta charset="UTF-8">
 
 <head>
-    <title>Online Library | My Shelf</title>
+    <title>Online Library</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png"/>
 </head>
 
 <body>
     <h1 id="title">ONLINE LIBRARY</h1>
 
     <div class="library">
-        <h2 class="library">let's look at books</h2>
-        <p class="library">Book Information</p>
+        <h2 class="library">search</h2>
+        <p class="library">Query: "Java"</p>
         <p class="library" id="book-info"></p>
     </div>
 </body>
 <script src="source.js"></script>
+<script src="https://www.googleapis.com/books/v1/volumes?q=java&callback=handleResponse"></script>
 
 </html>
