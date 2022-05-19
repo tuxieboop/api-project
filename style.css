@@ -24,7 +24,13 @@
     padding: 20px;
 }
 
-.library{
+img{
+    float: right;
+    padding-right: 50%;
+    background: #5971a4;
+}
+
+#library{
     background: #5971a4;
     padding: 10px;
 }
@@ -42,7 +48,7 @@
     padding: 10px;
 }
 
-.library p{
+#library p{
     color: #eeccd4;
     background: #5971a4;
     padding: 10px;
@@ -85,4 +91,12 @@ h3{
     font-family: serif;
     color: #ecebed;
     background: #5971a4;
+}
+
+button{
+    color: #5971a4;
+    background: white;
+    border-color: #5971a4;
+    border-radius: 15px;
+    border-width: 4px;
 }
