@@ -19,7 +19,7 @@
     color: #5971a4;
     font-size: 80px;
     font-family: serif;
-    background: #eeccd4;
+    background: #c4d6d1;
 	margin: 0px;
     padding: 20px;
 }
@@ -29,7 +29,12 @@
     padding: 10px;
 }
 
-.library h2{
+.library-header{
+    background: #5971a4;
+    padding: 10px;
+}
+
+.library-header h2{
     font-size: 40px;
     font-family: serif;
     color: #ecebed;
@@ -38,10 +43,41 @@
 }
 
 .library p{
-    color: #c4d6d1;
+    color: #eeccd4;
     background: #5971a4;
     padding: 10px;
     font-size: 20px;
+}
+
+.library-header form{
+    color: #5971a4;
+    background: #eeccd4;
+}
+
+.search-title{
+    color: white;
+    background: #eeccd4;
+}
+
+#submit-search{
+    color: #5971a4;
+    background: white;
+    border-color: #5971a4;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+#submit-search:hover{
+    color: #c4d6d1;
+    background: #5971a4;
+    border-color: #c4d6d1;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+#searchfor{
+    color: #5971a4;
+    border-color: #eeccd4;
 }
 
 h3{
