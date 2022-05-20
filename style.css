@@ -26,8 +26,10 @@
 
 img{
     float: right;
-    padding-right: 50%;
+    padding-right: 30%;
+    padding-top: 5%;
     background: #5971a4;
+    width: 15%;
 }
 
 #library{
@@ -93,10 +95,32 @@ h3{
     background: #5971a4;
 }
 
+h2{
+    font-size: 40px;
+    color: #ecebed;
+    background: #5971a4;
+}
+
 button{
-    color: #5971a4;
+    color: #c4d6d1;
     background: white;
-    border-color: #5971a4;
+    border-color: #c4d6d1;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+button:hover{
+    color: white;
+    background: #c4d6d1;
+    border-color: gray;
+    border-radius: 15px;
+    border-width: 4px;
+}
+
+button:disabled{
+    color: lightgray;
+    background: gray;
+    border-color: lightgray;
     border-radius: 15px;
     border-width: 4px;
 }
