@@ -13,16 +13,17 @@
     <h1 id="title">ONLINE LIBRARY</h1>
 
     <div class="library-header">
-        <form class="library-header" id="search" onSubmit="myFunction()">
+        <form class="library-header" id="search" onSubmit="search()">
             <lable class="search-title" for="searchfor">Search for:  </lable>
-            <input class="searchfor" type="text" value="java"/>
+            <input id="searchbar" class="searchfor" type="text" value="python"/>
 
-            <lable class="search-title" for="searchfor"># of Results:  </lable>
-            <input class="searchfor" type="number" min="1" max="10" value="3" />
+            <lable class="search-title" for="searchfor">Number of Results:  </lable>
+            <input id="num" class="searchfor" type="number" min="1" max="10" value="3" />
 
-            <input type="submit" id="submit-search" />
+            <input type="submit" id="submit-search"/>
         </form>
-        <h2 class="library-header" id="results-heading">search results | query: java</h2>
+        <h2 class="library-header" id="results-heading">search results | query:</h2>
+        <h2 class="library-header" id="query">python</h2>
     </div>
     <p></p>
 
@@ -30,6 +31,6 @@
     </div>
 </body>
 <script src="source.js"></script>
-<script src="https://www.googleapis.com/books/v1/volumes?q=java&callback=handleResponse"></script>
+<script id="api-script" src="https://www.googleapis.com/books/v1/volumes?q=python&callback=handleResponse"></script>
 
 </html>
